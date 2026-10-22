@@ -1,0 +1,7 @@
+*.csv
+*.log
+.azure/
+.env
+.env.*
+originals/
+raw/
