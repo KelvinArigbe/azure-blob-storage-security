@@ -75,14 +75,7 @@ Publication copies are in `evidence/`; captions and privacy treatment are in `EV
 - Container remains configured as Blob; account-level anonymous access is disabled. Changing it to Private would add defense in depth but was not recorded as completed.
 - Logging coverage, retention, encryption configuration and policy enforcement were not assessed. The visible `$logs` container alone does not establish logging coverage.
 - A PASS means the checked property matches the lab target, not complete storage security or compliance. The script checks TLS1_2 exactly; another value requires review.
-- Cleanup remains pending; no verified billing total is claimed.
 
-## Cleanup - pending
-
-- [ ] Preserve the evidence and script.
-- [ ] Remove the analyst's Reader and Storage Blob Data Reader assignments for this storage account.
-- [ ] Delete the storage account and lab resource group after confirming no other resources are needed.
-- [ ] Retain the original IAM lab and administrator access unless cleaning them separately.
 
 ## References
 
